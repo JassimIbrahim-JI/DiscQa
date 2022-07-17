@@ -1,0 +1,623 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailedActivity">
+
+    <include
+        android:id="@+id/detailed_toolbar"
+        layout="@layout/toolbar" />
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/ViewPager"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_below="@id/detailed_toolbar"
+        android:clipToPadding="false"
+        android:foregroundGravity="center"
+        android:outlineAmbientShadowColor="@android:color/black"
+        android:overScrollMode="never">
+        
+    </androidx.viewpager.widget.ViewPager>
+
+    <ScrollView
+        android:id="@+id/scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/ViewPager">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/place_name_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:fontFamily="@font/montserrat_bold"
+                    android:text="@string/detailed_activity_description"
+                    android:textColor="@color/blue_logo"
+                    android:textSize="24sp" />
+
+
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/description_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="2dp"
+                android:fontFamily="@font/montserrat_light"
+                android:maxLines="4"
+                android:scrollbars="vertical"
+                android:text="Observe the comments made about you by your parents, friends, teachers or you may directly ask them. Note these points on a paper and try to make a sample of description."
+                android:textColor="@color/colorPrimary"
+                android:textSize="15sp"
+                android:textStyle="normal" />
+
+            <LinearLayout
+                android:id="@+id/linear_places"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="4dp"
+                android:gravity="bottom"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/info"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="4dp"
+                    android:fontFamily="@font/montserrat_medium"
+                    android:text="@string/detailed_activity_information_about"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/place_name_information_about"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="4dp"
+                    android:fontFamily="@font/montserrat_bold"
+                    android:text="Petra"
+                    android:textColor="@color/blue_logo"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginRight="5dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="7dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:id="@+id/temp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/montserrat_medium"
+                        android:text="@string/detailed_activity_temp"
+                        android:textColor="@android:color/black"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/air_quality"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/montserrat_medium"
+                        android:text="@string/detailed_activity_air_quality"
+                        android:textColor="@android:color/black"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/internet"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/montserrat_medium"
+                        android:text="@string/detailed_activity_internet"
+                        android:textColor="@android:color/black"
+                        android:textSize="16sp" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:gravity="start|bottom"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/nearby_tv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start|bottom"
+                            android:text="@string/nearby"
+                            android:textSize="14sp"
+                            android:textColor="@android:color/black"
+                            android:fontFamily="@font/montserrat_medium"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start|bottom"
+                            android:fontFamily="@font/montserrat_bold"
+                            android:text="@string/Places"
+                            android:textColor="@color/blue_logo"
+                            android:textSize="16sp" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="bottom"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="10dp"
+                    android:orientation="vertical"
+                    android:weightSum="4">
+
+
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:layout_marginTop="1dp"
+                        android:layout_weight="1"
+                        android:background="?attr/selectableItemBackgroundBorderless"
+                        android:onClick="temp_btn"
+                        app:srcCompat="@drawable/ic_more_information" />
+
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:layout_marginTop="1dp"
+                        android:layout_weight="1"
+                        android:background="?attr/selectableItemBackgroundBorderless"
+                        android:onClick="quality_btn"
+                        app:srcCompat="@drawable/ic_more_information" />
+
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:layout_marginTop="1dp"
+                        android:layout_weight="1"
+                        android:background="?attr/selectableItemBackgroundBorderless"
+                        android:onClick="internet_btn"
+                        app:srcCompat="@drawable/ic_more_information" />
+
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:layout_marginTop="3dp"
+                        android:layout_weight="1"
+                        android:background="?attr/selectableItemBackgroundBorderless"
+                        android:onClick="place_btn"
+                        app:srcCompat="@drawable/ic_circled_location" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="20dp"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/temp_overall_tv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="2dp"
+                            android:fontFamily="@font/montserrat_light"
+                            android:text="Hot"
+                            android:textColor="@android:color/black"
+                            android:textSize="12sp"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/now_notation"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="2dp"
+                            android:layout_marginTop="3dp"
+                            android:fontFamily="@font/montserrat_light"
+                            android:text="@string/now"
+                            android:textColor="@android:color/black"
+                            android:textSize="11sp"
+                            app:layout_constraintStart_toEndOf="@id/temp_overall_tv"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/colon"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="1dp"
+                            android:fontFamily="@font/montserrat_light"
+                            android:text=":"
+                            android:textColor="@android:color/black"
+                            android:textSize="14sp"
+                            app:layout_constraintStart_toEndOf="@id/now_notation"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/temp_tv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="12dp"
+                            android:layout_marginTop="2dp"
+                            android:fontFamily="@font/montserrat_light"
+                            android:text="30"
+                            android:textColor="@android:color/black"
+                            android:textSize="13sp"
+                            app:layout_constraintStart_toEndOf="@id/colon"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="4dp"
+                            android:fontFamily="@font/montserrat_light"
+                            android:layoutDirection="ltr"
+                            android:text="℃"
+                            android:textColor="@android:color/black"
+                            android:textSize="11sp"
+                            app:layout_constraintStart_toEndOf="@id/temp_tv"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+                    <com.akexorcist.roundcornerprogressbar.RoundCornerProgressBar
+                        android:id="@+id/temp_progress"
+                        android:layout_width="match_parent"
+                        android:layout_height="10dp"
+                        android:layout_gravity="bottom"
+                        app:rcBackgroundColor="@color/background_gray"
+                        app:rcBackgroundPadding="2dp"
+                        app:rcMax="50"
+                        app:rcProgress="55"
+                        app:rcProgressColor="@color/orange_good"
+                        app:rcRadius="0dp"
+                        app:rcReverse="false"
+                        app:rcSecondaryProgress="0"
+                        app:rcSecondaryProgressColor="@android:color/transparent" />
+
+                    <TextView
+                        android:id="@+id/air_quality_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top|start"
+                        android:layout_marginTop="2dp"
+                        android:fontFamily="@font/montserrat_light"
+                        android:text="62"
+                        android:textColor="@android:color/black"
+                        android:textSize="13sp" />
+
+
+                    <com.akexorcist.roundcornerprogressbar.RoundCornerProgressBar
+                        android:id="@+id/air_quality_progress"
+                        android:layout_width="match_parent"
+                        android:layout_height="10dp"
+                        android:layout_gravity="bottom"
+                        app:rcBackgroundColor="@color/background_gray"
+                        app:rcBackgroundPadding="2dp"
+                        app:rcMax="100"
+                        app:rcProgress="30"
+                        app:rcProgressColor="@color/red_bad"
+                        app:rcRadius="0dp"
+                        app:rcReverse="false"
+                        app:rcSecondaryProgress="0"
+                        app:rcSecondaryProgressColor="@android:color/transparent" />
+
+                    <TextView
+                        android:id="@+id/internet_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top|start"
+                        android:layout_marginTop="2dp"
+                        android:fontFamily="@font/montserrat_light"
+                        android:text="Good"
+                        android:textColor="@android:color/black"
+                        android:textSize="13sp" />
+
+                    <com.akexorcist.roundcornerprogressbar.RoundCornerProgressBar
+                        android:id="@+id/internet_progress"
+                        android:layout_width="match_parent"
+                        android:layout_height="10dp"
+                        android:layout_gravity="bottom"
+                        app:rcBackgroundColor="@color/background_gray"
+                        app:rcBackgroundPadding="2dp"
+                        app:rcMax="100"
+                        app:rcProgress="100"
+                        app:rcProgressColor="@color/orange_good"
+                        app:rcRadius="0dp"
+                        app:rcReverse="false"
+                        app:rcSecondaryProgress="0"
+                        app:rcSecondaryProgressColor="@android:color/transparent" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/recommendationPlace"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="bottom"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/reco"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="4dp"
+                    android:fontFamily="@font/montserrat_medium"
+                    android:text="@string/detailed_activity_recommendations_for"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/place_name_recommendations"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="4dp"
+                    android:fontFamily="@font/montserrat_bold"
+                    android:text="Petra"
+                    android:textColor="@color/blue_logo"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal"
+                android:weightSum="4">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <FrameLayout
+                        android:id="@+id/season_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center">
+                        <!-- Back Layout Goes Here -->
+                        <include
+                            android:id="@+id/back_season"
+                            layout="@layout/back_view_recommendations" />
+                        <!-- Front Layout Goes Here -->
+                        <include
+                            android:id="@+id/front_season"
+                            layout="@layout/front_view_recommendations" />
+                    </FrameLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="5dp"
+                        android:fontFamily="@font/montserrat_medium"
+                        android:text="@string/detailed_activity_season"
+                        android:textColor="@android:color/black"
+                        android:textSize="15sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <FrameLayout
+                        android:id="@+id/time_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center">
+                        <!-- Back Layout Goes Here -->
+                        <include
+                            android:id="@+id/back_time"
+                            layout="@layout/back_view_recommendations" />
+                        <!-- Front Layout Goes Here -->
+                        <include
+                            android:id="@+id/front_time"
+                            layout="@layout/front_view_recommendations" />
+                    </FrameLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="5dp"
+                        android:fontFamily="@font/montserrat_medium"
+                        android:text="@string/detailed_activity_time"
+                        android:textColor="@android:color/black"
+                        android:textSize="15sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:orientation="vertical">
+
+                    <FrameLayout
+                        android:id="@+id/estimated_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center">
+                        <!-- Back Layout Goes Here -->
+                        <include
+                            android:id="@+id/back_estimated"
+                            layout="@layout/back_view_recommendations" />
+                        <!-- Front Layout Goes Here -->
+                        <include
+                            android:id="@+id/front_estimated"
+                            layout="@layout/front_view_recommendations" />
+                    </FrameLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="5dp"
+                        android:fontFamily="@font/montserrat_medium"
+                        android:text="@string/detailed_activity_estimation"
+                        android:textColor="@android:color/black"
+                        android:textSize="15sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <FrameLayout
+                        android:id="@+id/age_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center">
+                        <!-- Back Layout Goes Here -->
+                        <include
+                            android:id="@+id/back_age"
+                            layout="@layout/back_view_recommendations" />
+                        <!-- Front Layout Goes Here -->
+                        <include
+                            android:id="@+id/front_ag"
+                            layout="@layout/back_view_recommendations" />
+                    </FrameLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="5dp"
+                        android:fontFamily="@font/montserrat_medium"
+                        android:text="@string/detailed_activity_age"
+                        android:textColor="@android:color/black"
+                        android:textSize="15sp" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linear_location"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="bottom"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/location"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="4dp"
+                    android:fontFamily="@font/montserrat_medium"
+                    android:text="@string/detailed_activity_location_for"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/place_name_location"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="4dp"
+                    android:fontFamily="@font/montserrat_bold"
+                    android:text="Petra"
+                    android:textColor="@color/blue_logo"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:padding="4dp">
+
+                <fragment
+                    android:id="@+id/map"
+                    android:name="com.google.android.gms.maps.SupportMapFragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="5dp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/zoomin"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="#e3FDFDFD"
+                        android:padding="12dp"
+                        app:srcCompat="@drawable/ic_plus" />
+
+                    <ImageButton
+                        android:id="@+id/zoomout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="-8dp"
+                        android:backgroundTint="#e3FDFDFD"
+                        android:padding="12dp"
+                        app:srcCompat="@drawable/ic_minus" />
+                </LinearLayout>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

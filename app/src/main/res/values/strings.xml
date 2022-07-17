@@ -1,0 +1,205 @@
+<resources>
+    <array name="interestsEN">
+        <item>climbing</item>
+        <item>diving</item>
+        <item>cycling</item>
+        <item>entertaining</item>
+        <item>safari-desert</item>
+        <item>safari-adventure</item>
+        <item>religion</item>
+        <item>nature</item>
+        <item>historical</item>
+        <item>treatment</item>
+        <item>camping</item>
+        <item>sightseeing</item>
+        <item>culture</item>
+        <item>swimming</item>
+        <item>desert</item>
+    </array>
+    <array name="interestsAR">
+        <item>التسلق</item>
+        <item>غوص</item>
+        <item>ركوب الدراجات</item>
+        <item>الترفيه</item>
+        <item>سفاري الصحراء</item>
+        <item>سفاري</item>
+        <item>ديني</item>
+        <item>طبيعة</item>
+        <item>تاريخي</item>
+        <item>علاج</item>
+        <item>تخييم</item>
+        <item>معالم المدينة</item>
+        <item>حضاره</item>
+        <item>سباحة</item>
+        <item>صحراء</item>
+    </array>
+    <string name="transportation_cost">transportation cost : </string>
+    <string name="app_name">DiscoverJo</string>
+    <string name="login_welcome">Welcome</string>
+    <string name="login_description">the best way to navigate through\nQatar and discover new places.</string>
+    <string name="login_continue">continue with :</string>
+
+    <string name="save_interests">Save</string>
+    <string name="clear_interests">Clear</string>
+
+    <string name="save">You\'ve saved your Interests successfully</string>
+
+    <string name="save_size_check">please pick one interest atleast !!</string>
+    <string name="save_size_check2">pick a new/another interest before saving !!</string>
+
+    <string name="select_places">Choose place :</string>
+
+    <string name="notification">Notification</string>
+    <string name="notification_on">Notification Enabled</string>
+    <string name="notification_off">Notification Disabled</string>
+
+    <string name="close">Press again to Quit </string>
+    <string name="retry">Retry</string>
+    <string name="lost_internet">internet connection lost.</string>
+
+<string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyCu5mWfe-_zVhrKAzTa0oPDDsBnD-YYgGw</string>
+
+    <string name="facebook_application_id" translatable="false">596967595152645</string>
+    <string name="facebook_login_protocol_scheme" translatable="false">fb596967595152645</string>
+    <string name="facebook_client_token" translatable="false">033e0cddefbac53425d5863c1379068c</string>
+
+
+
+    <!-- Strings for the (drawer_menu) titles -->
+    <string name="nav_profile">Profile</string>
+
+    <string name="nav_tour">Categories</string>
+    <string name="nav_upcoming_event">Upcoming Event</string>
+    <string name="nav_help_feedback">Help &amp; Feedback</string>
+    <string name="nav_logout">Log Out</string>
+    <string name="english">English</string>
+    <string name="arabic">Arabic</string>
+    <string name="lang">Language</string>
+    <string name="desc">Desc</string>
+    <string name="title">Title</string>
+    <string name="JD">JD</string>
+    <string name="delete_tour">Delete Tour</string>
+    <string name="tour_overview">Tour OverView</string>
+    <string name="reset">Reset</string>
+    <string name="title_english">Title_English</string>
+    <string name="title_arabic">Title_Arabic</string>
+    <string name="places">Places</string>
+    <string name="helpandfeedback">Help &amp; Feedback</string>
+    <string name="publish">Publish</string>
+    <string name="create_tour">Create Tour</string>
+    <string name="toast_places">please choose at least 3 places to create a Tour.</string>
+
+    <!-- Strings for the (ActionBarDrawerToggle) -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+    <!-- Strings for the(Detailed activity) -->
+    <string name="cold">"Cold"</string>
+    <string name="perfect">"Perfect"</string>
+    <string name="hot">"Hot"</string>
+    <string name="normal">"Normal"</string>
+
+    <string name="bad_internet">Bad</string>
+    <string name="good_internet">Good</string>
+    <string name="great_internet">Great</string>
+    <string name="okay_internet">Okay</string>
+
+    <string name="alert_rating_hint">"Share Your Experience about this tour"</string>
+    <string name="alert_rating_post">Post</string>
+    <string name="alert_rating_cancel">Cancel</string>
+    <string name="detailed_activity_description">Description</string>
+    <string name="detailed_activity_information_about">Information about</string>
+    <string name="detailed_activity_cost">Cost</string>
+    <string name="detailed_activity_temp">Temp</string>
+    <string name="detailed_activity_air_quality">Air quality</string>
+    <string name="detailed_activity_internet">Internet</string>
+    <string name="detailed_activity_recommendations_for">Recommendations for</string>
+    <string name="detailed_activity_season">Season</string>
+    <string name="detailed_activity_time">Time</string>
+    <string name="detailed_activity_age">Age</string>
+    <string name="detailed_activity_estimation">Estimation</string>
+    <string name="detailed_activity_location_for">Location for</string>
+    <string name="summer_season">Summer</string>
+    <string name="winter_season">Winter</string>
+    <string name="spring_season">spring</string>
+    <string name="autumn_season">autumn</string>
+    <string name="day_time">Day</string>
+    <string name="night_time">Night</string>
+    <string name="detailed_activity_title">Tour Details</string>
+    <string name="reviews_comments_dialog">Reviews</string>
+    <string name="already_rated">You have already rated this tour!!</string>
+    <string name="interests">Select your interests:</string>
+    <string name="now">(Now)</string>
+    <string name="title_share">"JO'DISCOVER" An application for tourism in Jordan</string>
+    <string name="using">Share using:</string>
+    <string name="recommended">Recommended</string>
+    <string name="top_rated">Top Rated</string>
+
+    <string name="emergency">Emergency:</string>
+    <string name="ministry_of_tourism">Ministry Of Tourism:</string>
+    <string name="contact_us">Contact Us</string>
+
+    <string name="test_tour">You have not selected your interests yet.</string>
+    <string name="overview_activity_title">Tour Overview</string>
+
+    <string name="activities_cost">Activities Cost:</string>
+
+    <string name="three_star_cost">3 star hotels cost : </string>
+    <string name="four_star_cost">4 star hotels cost : </string>
+    <string name="five_star_hotel">5 star hotels cost : </string>
+
+    <string name="weather">Weather Info</string>
+    <string name="max">High Temp</string>
+    <string name="min">Low Temp</string>
+    <string name="humidity">Humidity</string>
+    <string name="wind">Wind Speed</string>
+
+    <string name="four_g">4G Available</string>
+    <string name="three_g">3G Available</string>
+    <string name="two_g">2G Available</string>
+    <string name="no_service">No Service</string>
+
+    <string name="cost_popup_title">Cost Details</string>
+    <string name="entrance_fees">Entrance fees</string>
+    <string name="food">Food</string>
+    <string name="transportation">Transportation</string>
+    <string name="overnight_rate">Overnight rate</string>
+    <string name="cheap_cost">cheap price</string>
+    <string name="average_cost">Average price</string>
+    <string name="expensive_cost">Expensive price</string>
+    <string name="apply">Apply</string>
+
+    <!-- Clarification Dialog -->
+    <string name="clarification_dialog_title">Clarification</string>
+    <string name="clarification_dialog_body">&#8226; Default value of <b>Transportation</b> cost/duration was calculated from Queen Alia Airport as a starter point and the desired place as an end point.\n\n&#8226; Default value of <b>Estimated Time</b> was calculated by adding up all the desired place activities time and the transportation time.\n\n&#8226; <b>You Can Customize Both The Etimated Time and Cost of Each Place by Clicking on the Exclamation Mark Beside the (Cost).</b></string>
+    <string name="clarification_dialog_checkbox">Dont show this again</string>
+    <string name="sleep">Overnight stay</string>
+
+    <string name="places_toolbar_title">Places</string>
+
+    <string name="place_info_toolbar_title">Place Info</string>
+
+    <string name="image_description">photo</string>
+
+    <string name="Places">Places</string>
+
+    <string name="tab_hotels">Hotels</string>
+
+    <string name="tab_restaurants">Restaurants</string>
+
+    <string name="place">Place</string>
+
+    <string name="information_about">Information about</string>
+
+    <string name="place_location">Unknown</string>
+
+    <string name="place_website">Unknown</string>
+
+    <string name="place_phone">Unknwon</string>
+
+    <string name="nearby">Nearby</string>
+    <string name="check">check</string>
+    <string name="discover_qatar_n_with_us">Discover Qatar\n With Us</string>
+
+</resources>

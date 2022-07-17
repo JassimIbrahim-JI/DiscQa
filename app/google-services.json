@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "837616333703",
+    "project_id": "discoverqa-qa",
+    "storage_bucket": "discoverqa-qa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:837616333703:android:7bb07946e9aa9a1dc41922",
+        "android_client_info": {
+          "package_name": "com.gitpro.discoverqa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "837616333703-ql9ebmjomve4b5bohqclj51mvg5u0t1a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gitpro.discoverqa",
+            "certificate_hash": "f4771c9ee955562721959024d7a0c0fc3acb44f6"
+          }
+        },
+        {
+          "client_id": "837616333703-vo7vrrv1de634dehguf8m5dt2hv61o06.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDwz_d_L9ASgtMaj5HhDRa5mE8hsAaSlY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "837616333703-vo7vrrv1de634dehguf8m5dt2hv61o06.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#70E1CECE"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".SplashScreenActivity">
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true"
+    android:id="@+id/coordinator"/>
+
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animationView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="-2dp"
+        android:layout_marginTop="86dp"
+        android:layout_marginEnd="0dp"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/qatar" />
+
+    <com.gitpro.discoverqa.CustomTextView
+        android:id="@+id/text_sp"
+        android:layout_width="match_parent"
+        android:fontFamily="@font/canon"
+        android:layout_height="90dp"
+        android:textSize="28sp"
+        android:textColor="#833737"
+        android:gravity="center_horizontal"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/discover_qatar_n_with_us"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="345dp"
+       />
+
+    <com.agrawalsuneet.dotsloader.loaders.LinearDotsLoader
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_sp"
+        android:layout_centerHorizontal="true"
+
+        app:loader_animDur="300"
+        app:loader_circleRadius="10dp"
+        app:loader_defaultColor="#F8AF2C2C"
+        app:loader_dotsDist="10dp"
+        app:loader_expandOnSelect="false"
+        app:loader_firstShadowColor="#3CAF2C2C"
+        app:loader_isSingleDir="true"
+        app:loader_noOfDots="3"
+        app:loader_secondShadowColor="#20D86969"
+        app:loader_selectedColor="#70AF2C2C"
+        app:loader_selectedRadius="10dp"
+        app:loader_showRunningShadow="true" />
+
+
+</RelativeLayout>

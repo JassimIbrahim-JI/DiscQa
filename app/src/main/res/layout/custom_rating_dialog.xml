@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="24dp"
+    android:background="@drawable/corners">
+
+    <LinearLayout
+        android:id="@+id/profile_linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/rating_pic"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            app:civ_border_width="2dp"
+            app:civ_border_color="@color/blue_logo"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            />
+
+            <com.gitpro.discoverqa.CustomTextView
+            android:id="@+id/rating_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/montserrat_medium"
+            android:text="Rating"
+            android:textColor="@android:color/black"
+            android:textSize="22sp" />
+    </LinearLayout>
+
+    <RatingBar
+        android:id="@+id/rating_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/profile_linear"
+        android:mirrorForRtl="false"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:focusable="true"
+        android:isIndicator="false"
+        android:numStars="5"
+        android:rating="0"
+        android:stepSize="1"
+        android:theme="@style/Theme.Design.Light" />
+
+    <EditText
+        android:id="@+id/comment_post"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rating_bar"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="15dp"
+        android:fontFamily="@font/montserrat_light"
+        android:gravity="start"
+        android:hint="@string/alert_rating_hint"
+        android:textColor="@android:color/black"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/comment_post"
+        android:weightSum="2">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/cancel_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_border_radius"
+            android:elevation="2dp"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="@string/alert_rating_cancel"
+            android:textColor="@color/blue_logo"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/post_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_radius"
+            android:elevation="2dp"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="@string/alert_rating_post"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

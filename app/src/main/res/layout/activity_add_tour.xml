@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/add_tour_relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddTourActivity">
+
+    <include
+        android:id="@+id/add_tour_toolbar"
+        layout="@layout/toolbar" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textlayout1"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/add_tour_toolbar"
+        android:layout_margin="10dp"
+        app:boxStrokeColor="@color/blue_logo">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/titleE"
+            android:theme="@style/Widget.AppCompat.ActionBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ "
+            android:hint="@string/title_english" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textlayout2"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textlayout1"
+        android:layout_margin="10dp"
+        app:boxStrokeColor="@color/blue_logo">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/titleA"
+            android:theme="@style/Widget.AppCompat.ActionBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:digits="غظضذخثتشرقصجفعسنملةىكيطئءؤحزوهدباأ "
+            android:hint="@string/title_arabic" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <TextView
+        android:id="@+id/places"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textlayout2"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/montserrat_medium"
+        android:text="@string/select_places"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/fav_categories_rv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/add_tour_btn"
+        android:layout_below="@id/places"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="3dp"
+        >
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/add_tour_btn"
+        android:layout_width="113dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="14dp"
+        android:layout_marginBottom="19dp"
+        android:background="@drawable/button_radius"
+        android:fontFamily="@font/montserrat_medium"
+        android:onClick="addTour"
+        android:text="@string/publish"
+        android:textColor="@android:color/white"
+        android:textSize="14sp" />
+
+
+</RelativeLayout>

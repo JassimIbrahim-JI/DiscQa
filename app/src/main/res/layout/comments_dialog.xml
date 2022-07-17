@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="600dp">
+
+
+   <androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/reviews_toolbar"
+    android:elevation="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/reviews_tv"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="@string/reviews_comments_dialog"
+        android:textColor="@android:color/black"
+        android:textSize="22sp" />
+
+</androidx.cardview.widget.CardView>
+
+    <ListView
+        android:id="@+id/comments_listview"
+        android:layout_below="@id/reviews_toolbar"
+        android:layout_width="match_parent"
+        android:layout_above="@id/cancel_btn_comments"
+        android:layout_height="wrap_content" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/cancel_btn_comments"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="4dp"
+        android:background="@drawable/button_border_radius"
+        android:elevation="2dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="@string/alert_rating_cancel"
+        android:textColor="@color/blue_logo"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
+
+
+

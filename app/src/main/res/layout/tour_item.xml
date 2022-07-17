@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:elevation="2dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/corners"
+    android:paddingTop="5dp"
+    android:paddingBottom="4dp"
+    android:layout_margin="5dp"
+    android:layout_marginBottom="4dp">
+
+    <TextView
+        android:id="@+id/title_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="2dp" />
+
+    <ImageButton
+        android:id="@+id/arrowDown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="6dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        app:srcCompat="@drawable/ic_keyboard_arrow_down"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title_txt"
+        android:layout_marginStart="10dp"
+        android:text="@string/desc"
+        android:layout_marginTop="4dp" />
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/desc"
+        android:layout_margin="15dp"
+        android:weightSum="9">
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_weight="3"
+            android:layout_width="wrap_content"
+            android:layout_height="110dp"
+            android:scaleType="centerCrop"
+            android:background="@drawable/corners"/>
+
+        <ImageView
+            android:id="@+id/img2"
+            android:layout_weight="3"
+            android:layout_width="wrap_content"
+            android:layout_height="110dp"
+            android:background="@drawable/corners"
+            android:scaleType="centerCrop"
+            android:layout_marginStart="10dp" />
+
+        <ImageView
+            android:id="@+id/img3"
+            android:layout_weight="3"
+            android:layout_width="wrap_content"
+            android:layout_height="110dp"
+            android:background="@drawable/corners"
+            android:scaleType="centerCrop"
+            android:layout_marginStart="10dp" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#7A1D1D"
+        android:layout_marginEnd="32dp"
+        android:layout_marginStart="32dp"
+        android:layout_below="@id/linear" />
+
+    <ImageButton
+        android:id="@+id/share_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/line"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="6dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        app:srcCompat="@drawable/ic_share"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/star"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/line"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="36dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        app:srcCompat="@drawable/ic_star_border"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/rate_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/line"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="3dp"
+        android:layout_toStartOf="@id/star"
+        android:maxLength="3"
+        android:text="4.5"
+        android:textColor="#9B9B9B"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/comment_btn"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        app:srcCompat="@drawable/ic_chat_comment_gray"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/line"
+        android:layout_toStartOf="@id/rate_num"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:id="@+id/comment_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/line"
+        android:layout_marginTop="8dp"
+        android:layout_toStartOf="@id/comment_btn"
+        android:layout_marginEnd="4dp"
+        android:text="12"
+        android:textColor="#9B9B9B"
+        android:textStyle="bold"
+        android:textSize="15sp"/>
+
+</RelativeLayout>
