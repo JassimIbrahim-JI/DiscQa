@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".DetailedActivity">
+    tools:context=".activities.DetailedActivity">
 
     <include
         android:id="@+id/detailed_toolbar"
@@ -47,7 +47,7 @@
                     android:layout_marginStart="10dp"
                     android:fontFamily="@font/montserrat_bold"
                     android:text="@string/detailed_activity_description"
-                    android:textColor="@color/blue_logo"
+                    android:textColor="@color/burgundy_logo"
                     android:textSize="24sp" />
 
 
@@ -61,12 +61,12 @@
                 android:layout_marginStart="4dp"
                 android:layout_marginTop="4dp"
                 android:layout_marginEnd="2dp"
-                android:fontFamily="@font/montserrat_light"
+                android:fontFamily="@font/montserrat_semibolditalic"
                 android:maxLines="4"
                 android:scrollbars="vertical"
                 android:text="Observe the comments made about you by your parents, friends, teachers or you may directly ask them. Note these points on a paper and try to make a sample of description."
-                android:textColor="@color/colorPrimary"
-                android:textSize="15sp"
+                android:textColor="@color/burgundy_logo"
+                android:textSize="14sp"
                 android:textStyle="normal" />
 
             <LinearLayout
@@ -95,7 +95,7 @@
                     android:layout_marginStart="4dp"
                     android:fontFamily="@font/montserrat_bold"
                     android:text="Petra"
-                    android:textColor="@color/blue_logo"
+                    android:textColor="@color/burgundy_logo"
                     android:textSize="20sp" />
             </LinearLayout>
 
@@ -169,7 +169,7 @@
                             android:layout_gravity="start|bottom"
                             android:fontFamily="@font/montserrat_bold"
                             android:text="@string/Places"
-                            android:textColor="@color/blue_logo"
+                            android:textColor="@color/burgundy_logo"
                             android:textSize="16sp" />
                     </LinearLayout>
 
@@ -179,9 +179,9 @@
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_gravity="bottom"
-                    android:layout_marginLeft="5dp"
+                    android:layout_marginStart="5dp"
                     android:layout_marginTop="5dp"
-                    android:layout_marginRight="10dp"
+                    android:layout_marginEnd="10dp"
                     android:orientation="vertical"
                     android:weightSum="4">
 
@@ -402,7 +402,7 @@
                     android:layout_marginStart="4dp"
                     android:fontFamily="@font/montserrat_bold"
                     android:text="Petra"
-                    android:textColor="@color/blue_logo"
+                    android:textColor="@color/burgundy_logo"
                     android:textSize="20sp" />
             </LinearLayout>
 
@@ -572,7 +572,7 @@
                     android:layout_marginStart="4dp"
                     android:fontFamily="@font/montserrat_bold"
                     android:text="Petra"
-                    android:textColor="@color/blue_logo"
+                    android:textColor="@color/burgundy_logo"
                     android:textSize="20sp" />
             </LinearLayout>
 

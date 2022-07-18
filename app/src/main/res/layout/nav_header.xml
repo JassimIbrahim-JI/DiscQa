@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="210dp"
     android:orientation="vertical"
-    android:background="@drawable/nav_drawer_background"
+    android:background="@color/burgundy_logo"
     android:gravity="start">
 
 
@@ -17,28 +17,25 @@
         app:civ_border_color="#FFF"
         android:layout_marginTop="40dp"
         android:layout_marginStart="16dp"
-        android:layout_marginBottom="12dp"
-        android:layout_marginLeft="16dp" />
+        android:layout_marginBottom="12dp" />
 
     <TextView
         android:id="@+id/nav_user_name"
         android:layout_below="@+id/nav_user_avatar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="DiscoverJo"
+        android:text="Jassim"
         android:textColor="@android:color/white"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp" />
+        android:layout_marginStart="16dp" />
 
     <TextView
         android:id="@+id/nav_user_email"
         android:layout_below="@id/nav_user_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Discover_jor@gmail.com"
+        android:text="jassim.ibrhm@gmail.com"
         android:textColor="#a1FFFFFF"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp" />
+        android:layout_marginStart="16dp" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -51,17 +48,17 @@
             android:layout_width="0dp"
             android:layout_height="8dp"
             android:layout_weight="1"
-            android:background="#18255C"/>
+            android:background="#83451212"/>
         <View
             android:layout_width="0dp"
             android:layout_height="8dp"
             android:layout_weight="1"
-            android:background="#374EA1"/>
+            android:background="#D5712F2F"/>
         <View
             android:layout_width="0dp"
             android:layout_height="8dp"
             android:layout_weight="1"
-            android:background="#18255C"/>
+            android:background="#451212"/>
     </LinearLayout>
 
 </RelativeLayout>

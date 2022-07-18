@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:background="#70E1CECE"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".SplashScreenActivity">
+    tools:context=".activities.SplashScreenActivity">
 <androidx.coordinatorlayout.widget.CoordinatorLayout
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
@@ -34,7 +34,7 @@
         android:fontFamily="@font/canon"
         android:layout_height="90dp"
         android:textSize="28sp"
-        android:textColor="#833737"
+        android:textColor="@color/burgundy_logo"
         android:gravity="center_horizontal"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="@string/discover_qatar_n_with_us"

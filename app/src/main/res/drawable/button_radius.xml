@@ -3,5 +3,5 @@
     <corners
         android:radius="10dp" />
     <solid
-        android:color="@color/blue_logo"/>
+        android:color="@color/com_facebook_button_background_color_focused"/>
 </shape>

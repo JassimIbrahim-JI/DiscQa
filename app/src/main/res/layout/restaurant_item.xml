@@ -44,7 +44,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
-            android:layout_marginLeft="10dp"
             android:orientation="vertical">
 
             <TextView
@@ -52,8 +51,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:maxLines="1"
-                android:text="Petra Kitchen"
-                android:textColor="@color/blue_logo"
+                android:text="Doha Kitchen"
+                android:textColor="@color/burgundy_logo"
                 android:textSize="16sp"
                 android:textStyle="bold" />
 
@@ -73,7 +72,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="2dp"
-                android:layout_marginLeft="2dp"
                 android:layout_marginTop="3dp"
                 android:fontFamily="@font/montserrat_medium"
                 android:maxLines="1"

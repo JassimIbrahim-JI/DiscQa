@@ -24,6 +24,7 @@
     <color name="red_bad">#FF2454</color>
     <color name="orange_good">#FFD11A</color>
     <color name="burgundy_logo">#571A23</color>
+    <color name="burgundy_transparent">#83571A23</color>
      <color name="half_black">#454241</color>
      <color name="full_black">#333131</color>
     <color name="green_open">#4c9900</color>

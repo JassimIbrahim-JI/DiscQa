@@ -52,7 +52,7 @@
                 android:layout_height="wrap_content"
                 android:maxLines="1"
                 android:text="Petra Marriott Hotel"
-                android:textColor="@color/blue_logo"
+                android:textColor="@color/burgundy_logo"
                 android:textSize="16sp"
                 android:textStyle="bold" />
 

@@ -3,7 +3,7 @@
 
     <gradient
         android:angle="45"
-        android:startColor="#63C9FF"
-        android:endColor="#96374EA1" />
+        android:startColor="#80351B1B"
+        android:endColor="@color/burgundy_logo" />
 
 </shape>

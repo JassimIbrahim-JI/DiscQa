@@ -3,11 +3,19 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/DiscQa/app/src/main/res/drawable-v24/circle.xml" value="0.1" />
+        <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/DiscQa/app/src/main/res/drawable-v24/circle_shape.xml" value="0.1" />
+        <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/DiscQa/app/src/main/res/drawable-v24/ic_add.xml" value="0.149" />
         <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/DiscQa/app/src/main/res/drawable-v24/ic_outlined_mail.xml" value="0.1465" />
         <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/DiscQa/app/src/main/res/drawable-v24/ic_outlined_telephone.xml" value="0.1465" />
         <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/DiscQa/app/src/main/res/drawable-v24/ic_plus.xml" value="0.1465" />
         <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/DiscQa/app/src/main/res/drawable-v24/ic_restaurant.xml" value="0.147" />
         <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/DiscQa/app/src/main/res/drawable-v24/ic_winter.xml" value="0.1" />
+        <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/DiscQa/app/src/main/res/drawable/button_border_radius.xml" value="0.1" />
+        <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/DiscQa/app/src/main/res/drawable/button_profile_clear_save.xml" value="0.1" />
+        <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/DiscQa/app/src/main/res/drawable/button_radius.xml" value="0.1" />
+        <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/DiscQa/app/src/main/res/drawable/facebook_btn_shape.xml" value="0.1" />
+        <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/DiscQa/app/src/main/res/drawable/gradiant_bg.xml" value="0.147" />
         <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/DiscQa/app/src/main/res/drawable/ic_jordan.xml" value="0.147" />
         <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/DiscQa/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
         <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/DiscQa/app/src/main/res/drawable/ic_qa.xml" value="0.147" />
@@ -18,24 +26,25 @@
         <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/DiscQa/app/src/main/res/drawable/qatar_auth_background.xml" value="0.1465" />
         <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/DiscQa/app/src/main/res/drawable/splash_bg.xml" value="0.1585" />
         <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/DiscQa/app/src/main/res/layout-land/activity_login.xml" value="0.19427083333333334" />
-        <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/DiscQa/app/src/main/res/layout-v28/activity_detailed.xml" value="0.20102564102564102" />
+        <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/DiscQa/app/src/main/res/layout-v28/activity_detailed.xml" value="0.25" />
         <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/DiscQa/app/src/main/res/layout/activity_add_tour.xml" value="0.20102564102564102" />
-        <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/DiscQa/app/src/main/res/layout/activity_detailed.xml" value="0.20102564102564102" />
-        <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/DiscQa/app/src/main/res/layout/activity_login.xml" value="0.22" />
+        <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/DiscQa/app/src/main/res/layout/activity_detailed.xml" value="0.16" />
+        <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/DiscQa/app/src/main/res/layout/activity_login.xml" value="0.2" />
         <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/DiscQa/app/src/main/res/layout/activity_main.xml" value="0.19010416666666666" />
-        <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/DiscQa/app/src/main/res/layout/activity_main_drawer.xml" value="0.20416666666666666" />
-        <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/DiscQa/app/src/main/res/layout/activity_place_info.xml" value="0.18" />
+        <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/DiscQa/app/src/main/res/layout/activity_main_drawer.xml" value="0.25" />
+        <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/DiscQa/app/src/main/res/layout/activity_place_info.xml" value="0.33" />
         <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/DiscQa/app/src/main/res/layout/activity_places.xml" value="0.1" />
         <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/DiscQa/app/src/main/res/layout/activity_splash_screen.xml" value="0.2" />
-        <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/DiscQa/app/src/main/res/layout/airquality_popup.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/DiscQa/app/src/main/res/layout/airquality_popup.xml" value="0.25" />
         <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/DiscQa/app/src/main/res/layout/back_view_recommendations.xml" value="0.1" />
         <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/DiscQa/app/src/main/res/layout/clarification_dialog.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/DiscQa/app/src/main/res/layout/comment_item.xml" value="0.20416666666666666" />
-        <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/DiscQa/app/src/main/res/layout/comments_dialog.xml" value="0.1" />
+        <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/DiscQa/app/src/main/res/layout/comments_dialog.xml" value="0.18" />
         <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/DiscQa/app/src/main/res/layout/custom_rating_dialog.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/DiscQa/app/src/main/res/layout/fav_categories.xml" value="0.1" />
         <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/DiscQa/app/src/main/res/layout/fragment_helpfeedback.xml" value="0.22" />
         <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/DiscQa/app/src/main/res/layout/fragment_hotels.xml" value="0.1" />
+        <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/DiscQa/app/src/main/res/layout/fragment_profile.xml" value="0.22" />
         <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/DiscQa/app/src/main/res/layout/fragment_recommended_tour.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/DiscQa/app/src/main/res/layout/fragment_restaurants.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/DiscQa/app/src/main/res/layout/fragment_top_rated_tour.xml" value="0.20416666666666666" />
@@ -44,10 +53,10 @@
         <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/DiscQa/app/src/main/res/layout/hotel_item.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/DiscQa/app/src/main/res/layout/interests_cat.xml" value="0.1" />
         <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/DiscQa/app/src/main/res/layout/internet_popup.xml" value="0.20102564102564102" />
-        <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/DiscQa/app/src/main/res/layout/nav_header.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/DiscQa/app/src/main/res/layout/nav_header.xml" value="0.2" />
         <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/DiscQa/app/src/main/res/layout/over_night_spinner_item.xml" value="0.1" />
         <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/DiscQa/app/src/main/res/layout/restaurant_item.xml" value="0.1" />
-        <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/DiscQa/app/src/main/res/layout/temperature_popup.xml" value="0.1" />
+        <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/DiscQa/app/src/main/res/layout/temperature_popup.xml" value="0.25" />
         <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/DiscQa/app/src/main/res/layout/toolbar.xml" value="0.1" />
         <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/DiscQa/app/src/main/res/layout/tour_item.xml" value="0.1" />
         <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/DiscQa/app/src/main/res/layout/viewpager_item.xml" value="0.1" />

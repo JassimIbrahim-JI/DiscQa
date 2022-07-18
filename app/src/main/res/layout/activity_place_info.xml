@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".PlaceInfoActivity">
+    tools:context=".activities.PlaceInfoActivity">
 
     <include
         android:id="@+id/place_info_toolbar"
@@ -67,7 +67,7 @@
                     android:gravity="start"
                     android:maxLines="1"
                     android:text="Marriott Hotel"
-                    android:textColor="@color/blue_logo"
+                    android:textColor="@color/burgundy_logo"
                     android:textSize="18sp" />
 
 
@@ -102,7 +102,7 @@
                     android:layout_marginBottom="5dp"
                     android:fontFamily="@font/montserrat_bold"
                     android:text="@string/place"
-                    android:textColor="@color/blue_logo"
+                    android:textColor="@color/burgundy_logo"
                     android:textSize="20sp" />
 
             </LinearLayout>
@@ -257,7 +257,7 @@
                     android:layout_marginBottom="5dp"
                     android:fontFamily="@font/montserrat_bold"
                     android:text="@string/place"
-                    android:textColor="@color/blue_logo"
+                    android:textColor="@color/burgundy_logo"
                     android:textSize="20sp" />
 
             </LinearLayout>

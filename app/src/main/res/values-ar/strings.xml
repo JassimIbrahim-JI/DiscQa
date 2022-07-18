@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">DiscoverJo</string>
+    <string name="app_name">DiscoverQa</string>
 
     <string name="save_interests">حفظ</string>
     <string name="clear_interests">مسح</string>

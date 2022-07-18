@@ -57,7 +57,7 @@
 
         <activity
             android:exported="true"
-            android:name="com.gitpro.discoverqa.SplashScreenActivity"
+            android:name="com.gitpro.discoverqa.activities.SplashScreenActivity"
           >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -65,25 +65,25 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity"
+        <activity android:name=".activities.MainActivity"
             android:screenOrientation="fullSensor"
             android:exported="true"/>
 
         <activity
-            android:name="com.gitpro.discoverqa.AddTourActivity"
+            android:name="com.gitpro.discoverqa.activities.AddTourActivity"
             android:screenOrientation="portrait"
             android:exported="true"
             android:windowSoftInputMode="adjustNothing"/>
 
         <activity
-            android:name="com.gitpro.discoverqa.DetailedActivity"
+            android:name="com.gitpro.discoverqa.activities.DetailedActivity"
             android:screenOrientation="fullSensor" />
 
 
-        <activity android:name="com.gitpro.discoverqa.PlaceInfoActivity"
+        <activity android:name="com.gitpro.discoverqa.activities.PlaceInfoActivity"
             android:screenOrientation="portrait"/>
 
-        <activity android:name="com.gitpro.discoverqa.PlacesActivity"
+        <activity android:name="com.gitpro.discoverqa.activities.PlacesActivity"
             android:screenOrientation="portrait"/>
     </application>
 

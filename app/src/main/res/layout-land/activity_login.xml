@@ -14,7 +14,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="@font/cairo"
             android:text="@string/login_welcome"
-            android:textColor="@color/blue_logo"
+            android:textColor="@color/burgundy_logo"
             android:textSize="44sp"
             android:layout_centerHorizontal="true" />
 
