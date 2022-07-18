@@ -3,9 +3,19 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/DiscQa/app/src/main/res/drawable-v24/ic_outlined_mail.xml" value="0.1465" />
+        <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/DiscQa/app/src/main/res/drawable-v24/ic_outlined_telephone.xml" value="0.1465" />
+        <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/DiscQa/app/src/main/res/drawable-v24/ic_plus.xml" value="0.1465" />
+        <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/DiscQa/app/src/main/res/drawable-v24/ic_restaurant.xml" value="0.147" />
         <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/DiscQa/app/src/main/res/drawable-v24/ic_winter.xml" value="0.1" />
+        <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/DiscQa/app/src/main/res/drawable/ic_jordan.xml" value="0.147" />
         <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/DiscQa/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/DiscQa/app/src/main/res/drawable/ic_qa.xml" value="0.147" />
+        <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/DiscQa/app/src/main/res/drawable/ic_qatar.xml" value="0.147" />
+        <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/DiscQa/app/src/main/res/drawable/ic_ss_foreground.xml" value="0.147" />
         <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/DiscQa/app/src/main/res/drawable/ic_tour.xml" value="0.1" />
+        <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/DiscQa/app/src/main/res/drawable/ic_united_kingdom.xml" value="0.147" />
+        <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/DiscQa/app/src/main/res/drawable/qatar_auth_background.xml" value="0.1465" />
         <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/DiscQa/app/src/main/res/drawable/splash_bg.xml" value="0.1585" />
         <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/DiscQa/app/src/main/res/layout-land/activity_login.xml" value="0.19427083333333334" />
         <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/DiscQa/app/src/main/res/layout-v28/activity_detailed.xml" value="0.20102564102564102" />
@@ -24,6 +34,7 @@
         <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/DiscQa/app/src/main/res/layout/comments_dialog.xml" value="0.1" />
         <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/DiscQa/app/src/main/res/layout/custom_rating_dialog.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/DiscQa/app/src/main/res/layout/fav_categories.xml" value="0.1" />
+        <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/DiscQa/app/src/main/res/layout/fragment_helpfeedback.xml" value="0.22" />
         <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/DiscQa/app/src/main/res/layout/fragment_hotels.xml" value="0.1" />
         <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/DiscQa/app/src/main/res/layout/fragment_recommended_tour.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/DiscQa/app/src/main/res/layout/fragment_restaurants.xml" value="0.20416666666666666" />
@@ -40,7 +51,10 @@
         <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/DiscQa/app/src/main/res/layout/toolbar.xml" value="0.1" />
         <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/DiscQa/app/src/main/res/layout/tour_item.xml" value="0.1" />
         <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/DiscQa/app/src/main/res/layout/viewpager_item.xml" value="0.1" />
+        <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/DiscQa/app/src/main/res/menu/drawer_menu.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/DiscQa/app/src/main/res/mipmap-anydpi-v26/ic_a_round.xml" value="0.1" />
+        <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/DiscQa/app/src/main/res/mipmap-anydpi-v26/ic_ss.xml" value="0.147" />
+        <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/DiscQa/app/src/main/res/mipmap-anydpi-v26/ic_ss_round.xml" value="0.147" />
       </map>
     </option>
   </component>
