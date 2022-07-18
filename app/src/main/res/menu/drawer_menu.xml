@@ -15,6 +15,7 @@
 
         <item
             android:id="@+id/nav_help_feedback"
+
             android:icon="@drawable/ic_help_feedback"
             android:title="@string/helpandfeedback" />
     </group>
@@ -36,16 +37,20 @@
         </menu>
     </item>
 
-    <group>
+    <item android:title="">
+        <menu  android:checkableBehavior="single">
         <item
             android:id="@+id/nav_upcoming_event"
             android:icon="@drawable/ic_calendar"
+            android:iconTint="@color/burgundy_logo"
             android:title="@string/nav_upcoming_event" />
 
         <item
             android:id="@+id/nav_logout"
             android:icon="@drawable/ic_logout"
+            android:iconTint="@color/burgundy_logo"
             android:title="@string/nav_logout" />
-    </group>
+        </menu>
+    </item>
 
 </menu>

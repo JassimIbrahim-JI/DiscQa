@@ -33,7 +33,7 @@
         app:layout_constraintRight_toRightOf="parent"
         android:layout_marginBottom="20dp"
         android:id="@+id/add_tour_btn"
-        android:src="@drawable/ic_add"
+        android:src="@drawable/ic_baseline_add_24"
         android:theme="@style/fabStyle"
         app:maxImageSize="32sp"
         android:layout_marginEnd="20dp"
