@@ -14,4 +14,6 @@
     </declare-styleable>
     <integer name="anim_length">500</integer>
     <integer name="anim_length_half">250</integer>
+    <integer name="max_size">32</integer>
+    <integer name="custom_size">64</integer>
 </resources>

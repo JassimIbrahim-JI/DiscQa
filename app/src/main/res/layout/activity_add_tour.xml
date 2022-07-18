@@ -72,8 +72,7 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_marginTop="8dp"
-        android:layout_marginBottom="3dp"
-        >
+        android:layout_marginBottom="3dp">
 
     </androidx.recyclerview.widget.RecyclerView>
 
@@ -85,7 +84,7 @@
         android:layout_alignParentBottom="true"
         android:layout_marginEnd="14dp"
         android:layout_marginBottom="19dp"
-        android:background="@drawable/button_radius"
+        android:background="@drawable/publish_bg"
         android:fontFamily="@font/montserrat_medium"
         android:onClick="addTour"
         android:text="@string/publish"

@@ -33,12 +33,9 @@
         app:layout_constraintRight_toRightOf="parent"
         android:layout_marginBottom="20dp"
         android:id="@+id/add_tour_btn"
-        android:visibility="invisible"
-       android:tint="@color/white"
         android:src="@drawable/ic_add"
-        app:fabCustomSize="64dp"
-        app:maxImageSize="32dp"
-        android:backgroundTint="@color/burgundy_logo"
+        android:theme="@style/fabStyle"
+        app:maxImageSize="32sp"
         android:layout_marginEnd="20dp"
          />
 
