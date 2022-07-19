@@ -57,7 +57,7 @@ Analysis & Design ........... 8
 # App Content:
 
   U1:Login ui
-  ![][Screenshot_1658265300](https://user-images.githubusercontent.com/107422911/179850571-9e556249-3750-413e-8321-ea876fad63dd.png|width=100)
-  ![][Screenshot_1658265530](https://user-images.githubusercontent.com/107422911/179850780-9943e864-0db0-47f5-b174-7ff3ffb66ab9.png|width=100)
+  ![image][Screenshot_1658265300](https://user-images.githubusercontent.com/107422911/179850571-9e556249-3750-413e-8321-ea876fad63dd.png|width=100)
+  ![image][Screenshot_1658265530](https://user-images.githubusercontent.com/107422911/179850780-9943e864-0db0-47f5-b174-7ff3ffb66ab9.png|width=100)
 
 
