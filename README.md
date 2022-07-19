@@ -15,6 +15,30 @@ Requirements  ........... 5
   ........... 6
  Nonfunctional requirements ........... 7
 Analysis & Design ........... 8
- Use Case Diagram  ........... 8
- Class Diagram  ........... 9
-Conclusion & Features ........... 10
+
+
+# Project Goals:
+
+-  Supporting tourism and promoting the country.
+-  Helping the tourists to visit Qatar's landmarks with less cost and
+   ease of choice.
+-  Providing information about tourist attractions inside Qatar by providing
+   list of famous hotels and restaurants and provide weather for each tourist
+    area.
+- to help the tourists to navigate through Qatar without needing the help f a
+   guide or a tourist office.
+   
+   # Analysis & design:
+   -android studio
+   -Figma design
+   -AE adobe
+   -Google Cloud
+   -Firebase 
+   
+   
+  # Functional Req:
+  
+  
+   
+   
+   
