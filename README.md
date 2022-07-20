@@ -49,16 +49,32 @@ Analysis & Design ........... 8
   
 
   
-  Description:
-  ---
   
 
    
 # App Content:
-  ## **Login page**
   <p float="left"> 
-   <img src="https://user-images.githubusercontent.com/107422911/179891326-301a34c5-ce7b-4953-8e05-1a3682fe0e0a.png" width="200" height="350" />
-  <img src="https://user-images.githubusercontent.com/107422911/179898955-dc3194bf-8037-460a-9ad8-e7943b2e003f.png" width=200 height"300" />
+  <img src="https://user-images.githubusercontent.com/107422911/179891326-301a34c5-ce7b-4953-8e05-1a3682fe0e0a.png" width="200" height="350" />
+  <img src="https://user-images.githubusercontent.com/107422911/179898955-dc3194bf-8037-460a-9ad8-e7943b2e003f.png" width="200" height"300" />
+  <img src="https://user-images.githubusercontent.com/107422911/179893511-16f6dc67-01da-4b92-9cfc-cc71199b1499.png" width="200" height="350" />
+  <img src="https://user-images.githubusercontent.com/107422911/179899174-cc8bda63-cf84-45ea-9f94-832d6053d2ae.png" width="200" height="350"/>
 </p>
- <img src="https://user-images.githubusercontent.com/107422911/179893511-16f6dc67-01da-4b92-9cfc-cc71199b1499.png" width=200 height"300" />
+<p float="right">
+<img src="https://user-images.githubusercontent.com/107422911/179899696-13cf41be-fa9b-4971-8dde-a1a3f9a07d66.png" width="200" height="300"/>
+<img src="https://user-images.githubusercontent.com/107422911/179899964-268b73e5-a99c-409a-bfe9-6da90d2328f9.png" width="200" height="300"/>
+<img src="https://user-images.githubusercontent.com/107422911/179899696-13cf41be-fa9b-4971-8dde-a1a3f9a07d66.png" width="200" height="300"/>
+<img src="https://user-images.githubusercontent.com/107422911/179899921-2b4030f4-0da5-428d-b4c7-7b05ab8d1611.png" width="200" height="300"/>    
+</p>
 
+
+<p float="right">
+<img src="https://user-images.githubusercontent.com/107422911/179900592-f192a900-f01c-4db4-b8ca-ce654348b675.png" width="200" height="300"/>
+<img src="https://user-images.githubusercontent.com/107422911/179900601-9c4b1f08-60bb-498a-9d6d-3b372392df3b.png" width="200" height="300"/>
+<img src="https://user-images.githubusercontent.com/107422911/179900778-7e3c2f83-f478-456e-bfaa-199107c9a124.png" width="200" height="300"/>
+<img src="https://user-images.githubusercontent.com/107422911/179900672-e3686150-919e-497f-8443-a3e0755eb6de.png" width="200" height="300"/>    
+</p>
+
+<p float="right">
+<img src="https://user-images.githubusercontent.com/107422911/179900611-090842e5-0946-4261-89ad-ae52b388075d.png" width="200" height="300"/>
+<img src="https://user-images.githubusercontent.com/107422911/179900687-4aad4087-9096-402d-8fe9-cdbc412584da.png" width="200" height="300"/>   
+</p>
