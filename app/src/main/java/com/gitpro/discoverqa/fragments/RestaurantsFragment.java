@@ -37,7 +37,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 public class RestaurantsFragment extends Fragment {
 
     private static final String TAG = "RestaurantFragment";
-    private static final String PlACE_API_KEY = "AIzaSyC_kd_yZ3OI0CMFoheM4XtlvF1CBqnYjLk";
+    private static final String PlACE_API_KEY = "GOOGLE_API";
     private static final String BASE_URL = "https://maps.googleapis.com/";
     private static final String PHOTO_PATH_URL = "maps/api/place/photo";
     private static final String MAX_WIDTH = "1500";
