@@ -31,22 +31,33 @@ Analysis & Design ........... 8
    - AE adobe.
    - Google Cloud.
    - Firebase .
-   
-  ---
-  # Functional Req:   - R.1: Login. - R.2: View tours. - R.3: Comment on a tour. - R.4: Rate a tour. - R.5: Logout. - R.6: view tour details. 
-  - R.7: Changetheapplication language.
-  - R.8: Share tour.
-  - R.9: Add interests.
-  - R.11: Add tours: 
-  - R.10: Check upcoming Events.
-  - R.12: Delete tour: 
+
+|   *Req*          |    `Desc`     |
+| -------------    |-------------: |
+| login            | right-aligned | 
+| view  tours      | centered      |  
+| comment          | are neat      | 
+| rate a tour      | right-aligned | 
+| logout           | centered      |  
+| share tour       | are neat      |
+| view tour detail | right-aligned | 
+| change language  | centered      |  
+| add interests    | are neat      | 
+| delete tour      | right-aligned | 
+| check events     | centered      |  
+
+  
+
+  
+  Description:
   ---
   
    
    
 # App Content:
   ## **Login page**
+  <p float="left" 
    <img src="https://user-images.githubusercontent.com/107422911/179891326-301a34c5-ce7b-4953-8e05-1a3682fe0e0a.png" width="200" height="300" />
-    <img src="https://user-images.githubusercontent.com/107422911/179893511-16f6dc67-01da-4b92-9cfc-cc71199b1499.png" width=200 height"300" />
-
+   <img src="https://user-images.githubusercontent.com/107422911/179893511-16f6dc67-01da-4b92-9cfc-cc71199b1499.png" width=200 height"300" />
+</p>
 
