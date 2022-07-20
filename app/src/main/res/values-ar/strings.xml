@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DiscoverQa</string>
+
+    <string name="save_interests">حفظ</string>
+
+    <string name="clear_interests">مسح</string>
+
+    <string name="save">لقد تم حفظ الاهتمامات بنجاح</string>
+
+    <string name="save_size_check">قم باختيار اهتمام واحد على اﻷقل !!</string>
+
+    <string name="save_size_check2">قم باختيار اهتمام جديد قبل الحفظ !!</string>
+
+    <string name="transportation_cost">تكاليف النقل : </string>
+
+    <string name="notification">اﻹشعارات</string>
+
+    <string name="notification_on">تم تفعيل اﻹشعارات</string>
+
+    <string name="notification_off">تم إيقاف اﻹشعارات</string>
+
+    <string name="login_welcome">"أهلا وسهلا"</string>
+
+    <string name="login_description">"أفضل وسيلة للتنقل داخل الاردن \nواستكشاف المعالم والاماكن الجديدة."</string>
+
+    <string name="login_continue">تابع من خلال :</string>
+
+    <string name="close">انقر مجددا للخروج </string>
+
+    <string name="retry">مرة أخرى</string>
+
+    <string name="lost_internet">خطأ في الاتصال بالانترنت</string>
+
+    <string name="google_maps_key" translatable="false" templateMergeStrategy="preserve">AIzaSyDfd9KopYX6B1IrVTxW_qTOKtIPgdezA5Y</string>
+
+    <string name="facebook_application_id" translatable="false">596967595152645</string>
+    <string name="facebook_login_protocol_scheme" translatable="false">fb596967595152645</string>
+    <string name="facebook_client_token" translatable="false">033e0cddefbac53425d5863c1379068c</string>
+
+    <string name="lang">اللغة</string>
+
+    <string name="desc">التفاصيل</string>
+
+    <string name="title">العنوان</string>
+
+    <string name="JD">دينار</string>
+
+    <string name="now">(الان)</string>
+
+    <string name="title_share">هذا التطبيق يستخدم لاكتشاف الأماكن السياحية في الأردن</string>
+
+    <string name="using">مشاركة باستخدام:</string>
+
+    <string name="recommended">رحلات تهمك</string>
+
+    <string name="top_rated">أشهر الرحلات</string>
+
+    <!-- Strings for the (drawer_menu) titles -->
+
+
+    <string name="english">انجليزية</string>
+
+    <string name="arabic">العربية</string>
+
+    <string name="nav_profile">الملف الشخصي</string>
+
+    <string name="nav_tour">الرحلات</string>
+
+    <string name="nav_upcoming_event">الأحداث القادمة</string>
+
+    <string name="nav_help_feedback">المساعدة</string>
+
+    <string name="nav_logout">تسجيل الخروج</string>
+
+    <!-- Strings for the (ActionBarDrawerToggle) -->
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="select_places">اختر الأماكن:</string>
+
+    <!-- Strings for the(Detailed activity) -->
+
+
+    <string name="cold">"بارد"</string>
+
+    <string name="perfect">"مثالي"</string>
+
+    <string name="hot">"حار"</string>
+
+    <string name="normal">"طبيعي"</string>
+
+    <string name="bad_internet">سيئ</string>
+
+    <string name="good_internet">جيد</string>
+
+    <string name="great_internet">ممتاز</string>
+
+    <string name="okay_internet">مقبول</string>
+
+    <string name="alert_rating_hint">"شاركنا تجربتك لهذه الرحلة"</string>
+
+    <string name="alert_rating_post">تم</string>
+
+    <string name="alert_rating_cancel">الغاء</string>
+
+    <string name="detailed_activity_description">حول</string>
+
+    <string name="detailed_activity_information_about">معلومات حول:</string>
+
+    <string name="detailed_activity_cost">السعر</string>
+
+    <string name="detailed_activity_temp">الحرارة</string>
+
+    <string name="detailed_activity_air_quality">جودة الهواء</string>
+
+    <string name="detailed_activity_internet">انترنت</string>
+
+    <string name="detailed_activity_recommendations_for">اقتراحات حول</string>
+
+    <string name="detailed_activity_season">الموسم</string>
+
+    <string name="detailed_activity_time">الوقت</string>
+
+    <string name="detailed_activity_age">العمر</string>
+
+    <string name="detailed_activity_estimation">الوقت المتوقع</string>
+
+    <string name="detailed_activity_location_for">موقع </string>
+
+    <string name="summer_season">الصيف</string>
+
+    <string name="winter_season">الشتاء</string>
+
+    <string name="spring_season">الربيع</string>
+
+    <string name="autumn_season">الخريف</string>
+
+    <string name="day_time">صباح</string>
+
+    <string name="night_time">مساء</string>
+
+    <string name="delete_tour">حذف الرحلة</string>
+
+    <string name="tour_overview">نظرة عامة</string>
+
+    <string name="reset">اعادة</string>
+
+    <string name="publish">نشر</string>
+
+    <string name="create_tour">انشاء رحلة</string>
+
+    <string name="title_english">العنوان بالانجليزية</string>
+
+    <string name="title_arabic">العنوان بالعربية</string>
+
+    <string name="places">الأماكن</string>
+
+    <string name="toast_places">الرجاء اختيار 3 أماكن على الأقل لعمل رحلة.</string>
+
+    <string name="helpandfeedback">المساعدة</string>
+
+    <string name="already_rated">لقد قيمت هذه الرحلة من قبل!!</string>
+
+    <string name="detailed_activity_title">تفاصيل الرحلة</string>
+
+    <string name="reviews_comments_dialog">التعليقات</string>
+
+    <string name="interests">اختر اهتماماتك:</string>
+
+    <string name="emergency">طوارئ:</string>
+
+    <string name="ministry_of_tourism">وزارة السياحة:</string>
+
+    <string name="contact_us">تواصل معنا:</string>
+
+    <string name="test_tour">لم تقم باختيار اهتماماتك حتى الآن.</string>
+
+    <string name="overview_activity_title">نظرة عامة على الرحلة</string>
+
+    <string name="activities_cost"> تكاليف النشاطات:</string>
+
+    <string name="three_star_cost">فندق 3 نجوم :</string>
+
+    <string name="four_star_cost">فندق 4 نجوم :</string>
+
+    <string name="five_star_hotel">فندق 5 نجوم :</string>
+
+    <string name="weather">أخبار الطقس</string>
+
+    <string name="max">الحرارة العظمى</string>
+
+    <string name="min">الحرارة الصغرى</string>
+
+    <string name="humidity">الرطوبة</string>
+
+    <string name="wind">الرياح</string>
+
+    <string name="four_g">يدعم الجيل الرابع</string>
+
+    <string name="three_g">يدعم الجيل الثالث</string>
+
+    <string name="two_g">يدعم الجيل الثاني</string>
+
+    <string name="no_service">لا يوجد خدمة</string>
+
+    <string name="cost_popup_title">تفاصيل السعر</string>
+
+    <string name="entrance_fees">رسوم الدخول</string>
+
+    <string name="food">الطعام</string>
+
+    <string name="transportation">أجرة النقل</string>
+
+    <string name="overnight_rate">سعر المبيت</string>
+
+    <string name="cheap_cost">رخيص الثمن</string>
+
+    <string name="average_cost">متوسط الثمن</string>
+
+    <string name="expensive_cost">غالي الثمن</string>
+
+    <string name="apply">حفظ</string>
+
+    <!-- Clarification Dialog -->
+
+
+    <string name="clarification_dialog_title">توضيح</string>
+
+
+    -<string name="clarification_dialog_body">
+• القيمة الافتراضية ل
+<b>مدة و أجرة النقل</b>
+ تم حسابها على أساس مطار الملكة علياء الدولي كنقطة انطلاق للمكان المطلوب. \n\n• القيمة الافتراضية ل
+<b>الوقت المتوقع</b>
+ تم حسابها عن طريق اضافة وقت النشاطات في المكان مع مدة النقل.\n\n•
+<b>يمكنك تعديل الوقت المتوقع والسعر لكل مكان عن طريق الضغط على علامة التعجب بجانب (السعر) واختيار النشاطات واماكن المبيت التي تريدها.</b>
+
+</string>
+
+    <string name="clarification_dialog_checkbox">عدم اﻹظهار مرة أخرى</string>
+
+    <string name="sleep">المبيت</string>
+
+    <string name="place_location">غير معروف</string>
+
+    <string name="place_website">غير معروف</string>
+
+    <string name="place_phone">غير معروف</string>
+
+    <string name="Places">"الأماكن المجاورة "</string>
+
+    <string name="image_description">صورة</string>
+
+    <string name="information_about">معلومات عن</string>
+
+    <string name="place">المكان</string>
+
+    <string name="place_info_toolbar_title">معلومات الموقع</string>
+
+    <string name="places_toolbar_title">الأماكن</string>
+
+    <string name="tab_hotels">الفنادق</string>
+
+    <string name="tab_restaurants">"المطاعم"</string>
+
+    <string name="nearby"/>
+
+</resources>

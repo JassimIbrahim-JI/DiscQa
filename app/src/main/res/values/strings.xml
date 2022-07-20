@@ -1,4 +1,6 @@
 <resources>
+
+
     <array name="interestsEN">
         <item>climbing</item>
         <item>diving</item>
@@ -59,9 +61,9 @@
 
 <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyCu5mWfe-_zVhrKAzTa0oPDDsBnD-YYgGw</string>
 
-    <string name="facebook_application_id" translatable="false">"facebook_id"</string>
-    <string name="facebook_login_protocol_scheme" translatable="false">"fbfacebook_id"</string>
-    <string name="facebook_client_token" translatable="false">"your_client_token"</string>
+    <string name="facebook_application_id" translatable="false">596967595152645</string>
+    <string name="facebook_login_protocol_scheme" translatable="false">fb596967595152645</string>
+    <string name="facebook_client_token" translatable="false">033e0cddefbac53425d5863c1379068c</string>
 
 
 
@@ -199,7 +201,7 @@
     <string name="place_phone">Unknwon</string>
 
     <string name="nearby">Nearby</string>
-    <string name="check">check</string>
-    <string name="discover_qatar_n_with_us">Discover Qatar\n With Us</string>
+    <string name="check" translatable="false">check</string>
+    <string name="discover_qatar_n_with_us" translatable="false">Discover Qatar\n With Us</string>
 
 </resources>
