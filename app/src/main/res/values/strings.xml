@@ -59,11 +59,11 @@
     <string name="retry">Retry</string>
     <string name="lost_internet">internet connection lost.</string>
 
-<string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyCu5mWfe-_zVhrKAzTa0oPDDsBnD-YYgGw</string>
+<string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">"GOOGLE_GEO_API"</string>
 
-    <string name="facebook_application_id" translatable="false">596967595152645</string>
-    <string name="facebook_login_protocol_scheme" translatable="false">fb596967595152645</string>
-    <string name="facebook_client_token" translatable="false">033e0cddefbac53425d5863c1379068c</string>
+    <string name="facebook_application_id" translatable="false">1234</string>
+    <string name="facebook_login_protocol_scheme" translatable="false">fb1234</string>
+    <string name="facebook_client_token" translatable="false">"YOUR_TOKEN_SECERT"</string>
 
 
 
