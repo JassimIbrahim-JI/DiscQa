@@ -32,22 +32,15 @@ Analysis & Design ........... 8
    - Google Cloud.
    - Firebase .
    
-  
-  # Functional Req:
-  - R.1: Login.
-  - R.2: View tours.
-  - R.3: Comment on a tour.
-  - R.4: Rate a tour.
-  - R.5: Logout.
-  - R.6: view tour details.
-  - R.7: Change the application language.
+  --
+  # Functional Req:   - R.1: Login. - R.2: View tours. - R.3: Comment on a tour. - R.4: Rate a tour. - R.5: Logout. - R.6: view tour details. 
+  - R.7: Changetheapplication language.
   - R.8: Share tour.
   - R.9: Add interests.
-  - R.11: Add tours: The Admin can add new tours to the firestore database.
+  - R.11: Add tours: 
   - R.10: Check upcoming Events.
-  - R.12: Delete tour: The Admin can delete tours that are outdated or no longer suitable
-                     for the application.
-  
+  - R.12: Delete tour: 
+  --
   
    
    
