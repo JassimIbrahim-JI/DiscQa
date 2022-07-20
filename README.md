@@ -55,5 +55,6 @@ Analysis & Design ........... 8
    
    
 # App Content:
-   <img src="https://user-images.githubusercontent.com/107422911/179891326-301a34c5-ce7b-4953-8e05-1a3682fe0e0a.png" "width=200" height="200"/>
+ 
+   <img src="https://user-images.githubusercontent.com/107422911/179891326-301a34c5-ce7b-4953-8e05-1a3682fe0e0a.png" width="200" height="200" />
 
