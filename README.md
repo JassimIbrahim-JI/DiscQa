@@ -52,12 +52,13 @@ Analysis & Design ........... 8
   Description:
   ---
   
-   
+
    
 # App Content:
   ## **Login page**
-  <p float="left" 
-   <img src="https://user-images.githubusercontent.com/107422911/179891326-301a34c5-ce7b-4953-8e05-1a3682fe0e0a.png" width="200" height="300" />
-   <img src="https://user-images.githubusercontent.com/107422911/179893511-16f6dc67-01da-4b92-9cfc-cc71199b1499.png" width=200 height"300" />
+  <p float="left"> 
+   <img src="https://user-images.githubusercontent.com/107422911/179891326-301a34c5-ce7b-4953-8e05-1a3682fe0e0a.png" width="200" height="350" />
+  <img src="https://user-images.githubusercontent.com/107422911/179898955-dc3194bf-8037-460a-9ad8-e7943b2e003f.png" width=200 height"300" />
 </p>
+ <img src="https://user-images.githubusercontent.com/107422911/179893511-16f6dc67-01da-4b92-9cfc-cc71199b1499.png" width=200 height"300" />
 
