@@ -13,6 +13,9 @@ Functional requirements ........... 5
 Nonfunctional requirements ........... 7
 Analysis & Design ........... 8
 
+- [ ] An uncompleted project
+- [x] A completed project
+
 
 # Project Goals:
 
@@ -32,20 +35,20 @@ Analysis & Design ........... 8
    - Google Cloud.
    - Firebase .
 
-|   *Req*          |    `Desc`     |
-| -------------    |-------------: |
-| login            | right-aligned | 
-| view  tours      | centered      |  
-| comment          | are neat      | 
-| rate a tour      | right-aligned | 
-| logout           | centered      |  
-| share tour       | are neat      |
-| view tour detail | right-aligned | 
-| change language  | centered      |  
-| add interests    | are neat      | 
-| delete tour      | right-aligned | 
-| check events     | centered      |  
-
+|*Functionalty*    |    `Description`                                                            |
+| -------------    |:----------------------------------------------------------------------------|
+| login            | The user will have to login either by a Google account or a Facebook account|  
+| view  tours      |the user can view tours from a list that the app provides, each tour have 3 photos, the average review rate out of 5 and the number of comments.|  
+| comment          |  The use shall comment on each tour with his thoughts on the tourand the places inside it.|
+| rate a tour      | The user can rate each tour out of 5 . | 
+| logout           |    The user can logout from the application at any moment in time.|  
+| share tour       | The user can share any tour that he/she finds interesting to one of his/her friends over any social media platform |
+| view tour detail |1. Check realtime information about each place (temperature , air quality,internet quality). 2.Check recommendations for each place that will be  helpful for the user(recommended season, recommended time, recommended age)|
+| change language  |The user can change the application between arabic and english languages   |  
+| add interests    | The user shall specify a list of interests that he want to find in a tour and based on what he/she chooses a list of recommended tours will appear to choose from it | 
+| delete tour      | The Admin can delete tours that are outdated or no longer suitable for the application | 
+| check events     |   The user can check all the latest upcoming events that will occur in qatar|  
+| add tour         | The Admin can add new tours to the firestore database by choosing the places  |
   
 
   
