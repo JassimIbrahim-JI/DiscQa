@@ -50,7 +50,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 public class PlaceInfoActivity extends AppCompatActivity implements OnMapReadyCallback {
 
     private static final String TAG = "PLACE INFO ACTIVITY";
-    private static final String PlACE_API_KEY = "AIzaSyC_kd_yZ3OI0CMFoheM4XtlvF1CBqnYjLk";
+    private static final String PlACE_API_KEY = "YOUR_GOOGLE_API";
     private static final String BASE_URL = "https://maps.googleapis.com/";
     private static final String FIELDS = "formatted_phone_number,website,formatted_address,geometry/location";
 
