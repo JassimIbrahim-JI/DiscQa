@@ -1,4 +1,5 @@
-# DiscoverQA
+<p float="left"> <img src"https://user-images.githubusercontent.com/107422911/184511887-3ade09fc-cae6-4ac9-acca-a70645cb8b47.png" width="40" height="40"/>
+</p> # DiscoverQA 
 
 This is an Android Application that provides the tourists who have never been in Qatar before or have a vague knowledge about what to do in Qatar, where to go and how to get the most out of their time in this beautiful country. this app offers a collection of tours both ranked by top rated (peoples favorites) or the user's interests , each tour includes a collection of iconic tourist attraction places.
 
