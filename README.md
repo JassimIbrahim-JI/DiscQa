@@ -1,4 +1,4 @@
-<p float="left"> <img src="https://user-images.githubusercontent.com/107422911/184511887-3ade09fc-cae6-4ac9-acca-a70645cb8b47.png" width="120" height="100"/>
+<p float="left"> <img src="https://user-images.githubusercontent.com/107422911/184511887-3ade09fc-cae6-4ac9-acca-a70645cb8b47.png" width="110" height="95"/>
 </p>
  
  # DiscoverQA 
